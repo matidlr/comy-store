@@ -9,9 +9,11 @@ const About = () => {
             We love
           </h1>
           <div className="stats bg-primary shadow">
+            <div className="stat">
               <div className="stat-title text-primary-content text-4xl font-bold 
               tracking-widest">
                   comfy
+              </div>
               </div>
           </div>
       </div>
