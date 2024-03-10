@@ -30,6 +30,7 @@ const cartProduct = {
   price,
   company,
   productColor,
+  amount,
 }
 const dispatch = useDispatch();
 
