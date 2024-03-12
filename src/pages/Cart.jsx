@@ -5,7 +5,7 @@ import CartTotals from '../components/CartTotals';
 
 const Cart = () => {
 
-  const user = null;
+  const user = useSelector((state) => state.userState.user);
   const numItemsInCart = useSelector((state)=> state.cartState.numItemsInCart)
 
   if(numItemsInCart === 0){
